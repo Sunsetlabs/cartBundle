@@ -1,0 +1,23 @@
+{
+    "name": "sunsetlabs/cart-bundle",
+    "type": "symfony-bundle",
+    "description": "Cart functionality for Symfony2 applications",
+    "keywords": ["cart", "ecommerce"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejo Rodriguez",
+            "email": "a.rodsott@gmail.com"
+        },
+        {
+            "name": "Sunsetlabs",
+            "homepage": "http://sunsetlabs.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Sunsetlabs\\CartBundle\\": "" }
+    },
+    "branch-alias" : {
+        "dev-master" : "master"
+    }
+}
